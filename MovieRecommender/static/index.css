@@ -24,6 +24,13 @@ body {
     display: none;
 }
 
+.question4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #137853;
+    display: none;
+}
+
 .recommendations {
     width: 100%;
     height: 100vh;

@@ -17,17 +17,17 @@ body {
     background-color: #521377;
 }
 
-.question2 {
-    width: 100%;
-    height: 100vh;
-    background-color: #77136A;
-    display: none;
-}
-
 .question3 {
     width: 100%;
     height: 100vh;
     background-color: #771338;
+    display: none;
+}
+
+.question4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #137853;
     display: none;
 }
 
@@ -91,6 +91,42 @@ button {
     margin-left: 20px;
 }
 
+.rec1 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 80%;
+    height: 46px;
+    margin-right: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rec2 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 80%;
+    height: 46px;
+    margin-right: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rec3 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 80%;
+    height: 46px;
+    margin-right: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .result {
     width: 200px;
     height: 300px;
@@ -99,39 +135,8 @@ button {
     top: 100px;
 }
 
-.result1 {
-    left: 20%;
-    background-image: url("../images/36692.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.result2 {
-    left: 40%;
-    background-image: url("../images/91WNnQZdybL._AC_SL1500_.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.result3 {
-    left: 60%;
-    background-image: url("../images/rs_634x939-181202195654-634.captain-marvel.12418.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.moviename {
-    padding-top: 250px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
 .recommendationHeading {
     margin-top: 0;
     color: #fff;
     font-family: sans-serif;
-    padding-bottom: 400px;
 }

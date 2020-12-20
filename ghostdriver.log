@@ -1,5 +1,93 @@
-[INFO  - 2020-12-07T16:45:30.632Z] GhostDriver - Main - running on port 53868
-[INFO  - 2020-12-07T16:45:34.876Z] Session [a08584c0-38ab-11eb-9c2d-e341933f211e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2020-12-07T16:45:34.876Z] Session [a08584c0-38ab-11eb-9c2d-e341933f211e] - page.customHeaders:  - {}
-[INFO  - 2020-12-07T16:45:34.876Z] Session [a08584c0-38ab-11eb-9c2d-e341933f211e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2020-12-07T16:45:34.876Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a08584c0-38ab-11eb-9c2d-e341933f211e
+[INFO  - 2020-12-20T06:46:14.963Z] GhostDriver - Main - running on port 56863
+[INFO  - 2020-12-20T06:46:17.035Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-12-20T06:46:17.035Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.customHeaders:  - {}
+[INFO  - 2020-12-20T06:46:17.036Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-12-20T06:46:17.036Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0f5a1310-428f-11eb-a225-dfb56cab825e
+[INFO  - 2020-12-20T06:51:15.044Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T06:56:15.045Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:01:15.044Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:06:15.045Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:11:15.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:16:15.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:21:15.052Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:31:52.512Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2020-12-20T07:32:31.177Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:32:31.178Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - stack:
+  s (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  captureEvent (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  invokeClientAsync (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  captureEvent (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  (anonymous function) (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  u (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+  c (https://browser.sentry-cdn.com/4.6.4/bundle.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:32:39.000Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:32:39.000Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - stack:
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:7)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:15)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:15)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:32:39.002Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 's.aliasBidder("appnexus","bReal")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:32:39.002Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - stack:
+  (anonymous function) (https://cdn.intergient.com/pageos/pageos.js:1)
+  onload (https://cdn.intergient.com/pageos/pageos.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-12-20T07:36:53.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:41:53.018Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:46:53.018Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:51:53.020Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:56:53.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T08:01:53.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T11:04:53.530Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T13:18:29.886Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T13:23:29.836Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:15)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:15)
+  r (https://cdn.intergi.com/prebid/prebid.js:1)
+  (anonymous function) (https://cdn.intergi.com/prebid/prebid.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:33:59.654Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 's.aliasBidder("appnexus","bReal")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-20T07:33:59.655Z] Session [0f5a1310-428f-11eb-a225-dfb56cab825e] - page.onError - stack:
+  (anonymous function) (https://cdn.intergient.com/pageos/pageos.js:1)
+  onload (https://cdn.intergient.com/pageos/pageos.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-12-20T07:36:52.519Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:41:52.532Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:46:52.532Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:51:52.532Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T07:56:52.533Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T08:01:52.533Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T11:04:53.532Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T13:18:29.800Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-12-20T13:23:29.803Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
